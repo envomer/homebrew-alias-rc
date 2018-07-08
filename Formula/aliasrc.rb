@@ -1,4 +1,4 @@
-class AliasRC < Formula
+class Aliasrc < Formula
   include Language::Python::Virtualenv
 
   desc "Keep your .zshrc/.bashrc in sync across all your devices"
