@@ -3,8 +3,8 @@ class Aliasrc < Formula
 
   desc "Keep your .zshrc/.bashrc in sync across all your devices"
   homepage "https://github.com/envomer/homebrew-alias-rc"
-  url "https://files.pythonhosted.org/packages/ed/af/9e33c3cbb7e0637995cf6ce54c2db53c162b03e43c4884528befcc091ac7/alias.rc-0.0.3.tar.gz"
-  sha256 "17a3a27b2662d72c2ce251594ae88b36fac277ce1ebccec21048bfecbbe6e9eb"
+  url "https://files.pythonhosted.org/packages/c9/ef/bcf7c9b8d1821890efbef0633003d8aa9bd8782d81c3a8ee05e9843dc158/alias.rc-0.0.4.tar.gz"
+  sha256 "2d712cda5e15eec28c0b6a48f862bc23a2410fc718ad390371e141565343823a"
 
   depends_on "python"
 
@@ -26,11 +26,6 @@ class Aliasrc < Formula
   resource "simple-crypt" do
     url "https://files.pythonhosted.org/packages/60/66/5bf6feb073f715a61492f8a6d444ad3d884ada71af317ce7a9c80bebee60/simple-crypt-4.1.7.tar.gz"
     sha256 "49462ab7ea4b080a8c10e362abfe35ecfa6dbe1e1c454ea36de7d2a71dce992f"
-  end
-
-  resource "usersettings" do
-    url "https://files.pythonhosted.org/packages/df/d3/b66294b2500f21fbeaa47e52bd5be90be3f2315e09bea2839ee0eeeb151b/usersettings-1.0.7.tar.gz"
-    sha256 "c48c48f7bc1f00facc74da5ecfb6e1d95c66fc46d9e054c774958570f780d535"
   end
 
   def install
