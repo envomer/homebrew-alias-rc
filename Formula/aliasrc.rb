@@ -3,8 +3,8 @@ class Aliasrc < Formula
 
   desc "Keep your .zshrc/.bashrc in sync across all your devices"
   homepage "https://github.com/envomer/homebrew-alias-rc"
-  url "https://files.pythonhosted.org/packages/fd/98/9e25363036fdad708db581396dfc710e119bdd2c0c99c7978270de546327/alias.rc-0.0.2-py2-none-any.whl"
-  sha256 "966d62bffe88c4c3d3022a117612b6926dc2523b1693146a3df1f263ca32d641"
+  url "https://files.pythonhosted.org/packages/ed/af/9e33c3cbb7e0637995cf6ce54c2db53c162b03e43c4884528befcc091ac7/alias.rc-0.0.3.tar.gz"
+  sha256 "17a3a27b2662d72c2ce251594ae88b36fac277ce1ebccec21048bfecbbe6e9eb"
 
   depends_on "python"
 
